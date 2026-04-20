@@ -48,6 +48,8 @@ public class PlayerController : MonoBehaviour
     // 1.7 Set isOnGround to true when the player collides with the ground
     private void OnCollisionEnter(Collision collision)
     {
+        Debug.Log("ชนกับวัตถุชื่อ: " + collision.gameObject.name + " | Tag ที่ตรวจได้: [" + collision.gameObject.tag + "]");
+
         if (collision.gameObject.CompareTag("Ground"))
         {
             isOnGround = true;
