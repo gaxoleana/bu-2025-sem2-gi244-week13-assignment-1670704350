@@ -13,7 +13,7 @@ public class MoveLeft : MonoBehaviour
 
     private void OnEnable()
     {
-        speed = 10f; // รีเซ็ตความเร็วให้กลับมาวิ่งได้ใหม่
+        speed = 10f;
     }
 
     // Update is called once per frame
